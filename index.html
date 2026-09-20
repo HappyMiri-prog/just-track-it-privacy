@@ -70,6 +70,11 @@
     a:hover {
       text-decoration: underline;
     }
+    .section-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
   </style>
 </head>
 <body>
@@ -85,15 +90,27 @@
     <h2>2. Local-Only Storage</h2>
     <p>All user entries, habit frequencies, streaks, and application settings are persisted locally on your device within isolated sandbox storage (<code>NSDocumentDirectory</code>). This data is never transferred to external servers maintained by us.</p>
 
-    <h2>3. External Services and Links</h2>
+    <h2>3. iCloud Backup</h2>
+    <p>If you enable iCloud backup in Settings, your data syncs only to your own personal iCloud account. This sync happens directly between your device and Apple's iCloud service — we never receive, store, or have access to this data on any server of ours.</p>
+
+    <h2>4. In-App Purchases and Subscriptions</h2>
+    <p>Just Track It offers optional subscriptions and a one-time purchase, processed entirely by Apple through StoreKit. We do not receive, process, or store any payment or billing information — that is handled exclusively by Apple in accordance with their own privacy practices.</p>
+
+    <h2>5. External Services and Links</h2>
     <p>The application includes an optional link to subscribe to our product newsletter via a native in-app browser view (<code>SFSafariViewController</code>). Any information submitted through that external subscription form is handled directly and exclusively by the newsletter service provider in accordance with their privacy policy.</p>
 
-    <h2>4. Data Deletion and Backup</h2>
-    <p>Because your data is stored solely on your hardware, deleting the application completely removes all stored trackers and historical logs from your device, unless retained in your private Apple iCloud or local iTunes backups.</p>
+    <h2>6. Data Deletion and Backup</h2>
+    <p>Because your data is stored solely on your hardware (and, optionally, your own iCloud account), deleting the application completely removes all stored trackers and historical logs from your device, unless retained in your private Apple iCloud or local iTunes backups.</p>
 
-    <h2>5. Contact</h2>
+    <h2>7. Contact</h2>
     <p>If you have any questions regarding this policy, contact us at: <br>
     <a href="mailto:dyschromatopsyph@gmail.com">dyschromatopsyph@gmail.com</a></p>
+
+    <hr class="section-divider">
+
+    <h1 id="support" style="font-size: 24px; border-bottom: none; padding-bottom: 0;">Support</h1>
+    <p>Need help with Just Track It, or found a bug? We're happy to help.</p>
+    <p>Email us at <a href="mailto:dyschromatopsyph@gmail.com">dyschromatopsyph@gmail.com</a> and we'll get back to you as soon as we can.</p>
   </div>
 </body>
 </html>
