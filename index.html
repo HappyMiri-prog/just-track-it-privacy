@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -80,29 +80,50 @@
 <body>
   <div class="container">
     <h1>Privacy Policy</h1>
-    <div class="date">Last updated: September 2026</div>
+    <div class="date">Last updated: September 30, 2026</div>
 
-    <p><strong>Just Track It</strong> is designed with privacy as a foundational principle. The application operates as an offline-first utility, ensuring your personal habits and daily activity remain strictly on your device.</p>
+    <p><strong>Just Track It</strong> is designed with privacy as a foundational principle. It is an offline-first app: your daily entries stay on your device and, if you keep iCloud backup turned on, in your own personal iCloud account. We have no servers of our own and never see your data.</p>
 
-    <h2>1. Zero Data Collection</h2>
-    <p>Just Track It does not collect, transmit, track, or sell any personal information. There are no third-party tracking frameworks, analytics SDKs, or advertising identifiers (IDFA/IDFV) integrated into the application.</p>
+    <h2>1. We Do Not Collect Your Data</h2>
+    <p>We do not collect, receive, track, or sell any personal information. The app contains no analytics SDKs, no crash-reporting services, no advertising frameworks, and no advertising identifiers (IDFA). The only data that leaves your device is the backup sent to <em>your own</em> iCloud account (see section 3) and anything you explicitly choose to export or share.</p>
 
-    <h2>2. Local-Only Storage</h2>
-    <p>All user entries, habit frequencies, streaks, and application settings are persisted locally on your device within isolated sandbox storage (<code>NSDocumentDirectory</code>). This data is never transferred to external servers maintained by us.</p>
+    <h2>2. What Is Stored on Your Device</h2>
+    <p>Your entries (daily scores, moods, activities, habits, custom trackers and notes), goals, streaks and app settings (such as your chosen display name, language, gender preference for wording, color palette and reminder time) are stored locally in the app's private storage on your device. The app also keeps an automatic local copy of your data on the device every 7 days, so you can recover it if something goes wrong. None of this is ever sent to servers maintained by us.</p>
 
     <h2>3. iCloud Backup</h2>
-    <p>If you enable iCloud backup in Settings, your data syncs only to your own personal iCloud account. This sync happens directly between your device and Apple's iCloud service — we never receive, store, or have access to this data on any server of ours.</p>
+    <p>iCloud backup is <strong>turned on by default</strong> so that you can recover your data if you reinstall the app or change iPhones. Your backup is stored only in your own private iCloud account, in the app's iCloud container, and travels directly between your device and Apple's iCloud service. We never receive, store, or have access to it.</p>
+    <ul>
+      <li>iCloud backup is a <strong>backup of this iPhone</strong>, not a live sync between devices.</li>
+      <li>You can turn it off at any time in the app under <em>Settings → Backup</em>. Turning it off stops new backups but does not delete copies already stored in your iCloud.</li>
+      <li>You can delete the stored copy at any time from your iPhone's Settings, in the iCloud storage section for your Apple Account, by managing the storage used by Just Track It.</li>
+    </ul>
 
-    <h2>4. In-App Purchases and Subscriptions</h2>
-    <p>Just Track It offers optional subscriptions and a one-time purchase, processed entirely by Apple through StoreKit. We do not receive, process, or store any payment or billing information — that is handled exclusively by Apple in accordance with their own privacy practices.</p>
+    <h2>4. Daily Reminders</h2>
+    <p>If you turn on the daily reminder, the notifications are scheduled locally on your device by iOS. No push server is involved, and the reminder text does not include your entries or notes. You can turn reminders off in the app or in iOS Settings.</p>
 
-    <h2>5. External Services and Links</h2>
-    <p>The application includes an optional link to subscribe to our product newsletter via a native in-app browser view (<code>SFSafariViewController</code>). Any information submitted through that external subscription form is handled directly and exclusively by the newsletter service provider in accordance with their privacy policy.</p>
+    <h2>5. In-App Purchases and Subscriptions</h2>
+    <p>Just Track It may offer optional subscriptions and a one-time purchase, processed entirely by Apple through the App Store. We do not receive, process, or store any payment or billing information; that is handled exclusively by Apple in accordance with its own privacy practices.</p>
 
-    <h2>6. Data Deletion and Backup</h2>
-    <p>Because your data is stored solely on your hardware (and, optionally, your own iCloud account), deleting the application completely removes all stored trackers and historical logs from your device, unless retained in your private Apple iCloud or local iTunes backups.</p>
+    <h2>6. Export and Sharing</h2>
+    <p>You can export a backup file or share an image (for example, your annual summary). These actions only happen when you choose them, using the standard iOS share sheet. Once exported or shared, the file is handled by the destination you choose.</p>
 
-    <h2>7. Contact</h2>
+    <h2>7. External Services and Links</h2>
+    <p>The app includes optional links to this policy and to subscribe to our newsletter, which open in a browser view. Any information you submit through the newsletter form is handled by the newsletter service provider in accordance with its own privacy policy.</p>
+
+    <h2>8. Deleting Your Data</h2>
+    <ul>
+      <li><strong>In the app:</strong> <em>Settings → Reset app and delete data</em> permanently deletes all your entries, settings and automatic local copies from this iPhone. Your iCloud backup is kept, so you can restore it when you set up the app again.</li>
+      <li><strong>Deleting the app</strong> removes all locally stored data from your device.</li>
+      <li><strong>Your iCloud backup</strong> remains in your iCloud account until you delete it from your iPhone's iCloud storage settings (see section 3). Data may also remain in your own device backups (iCloud Backup or computer backups) until those are replaced or deleted.</li>
+    </ul>
+
+    <h2>9. Children</h2>
+    <p>We do not collect personal information from anyone, including children.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>If this policy changes, we will update this page and the "Last updated" date above.</p>
+
+    <h2>11. Contact</h2>
     <p>If you have any questions regarding this policy, contact us at: <br>
     <a href="mailto:dyschromatopsyph@gmail.com">dyschromatopsyph@gmail.com</a></p>
 
